@@ -1,0 +1,29 @@
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.list {
+    display: flex;
+}
+
+.list li:not(:last-child) {
+    margin-right: 10px;
+}
+
+.list li a {
+    padding: 40px 60px;
+    border: 1px solid #807c7c;
+    background-color: #cdcecf;
+    display: inline-block;
+    transition: 1s all;
+}
+
+.list li a:hover {
+    background-color: #88afcc;
+    color: #477698;
+    box-shadow: 0 0 60px #b3cada inset;
+}
